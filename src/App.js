@@ -1,10 +1,12 @@
-
 import './App.css';
+import React from 'react';
+import CharacterGallery from './components/CharacterGallery'
 
 function App() {
+
   return (
-    <div className="App">
-      Are you having a laugh m9
+    <div data-test="component-app">
+      <CharacterGallery />
     </div>
   );
 }
